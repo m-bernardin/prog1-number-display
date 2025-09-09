@@ -21,3 +21,13 @@ part i:
 6. check if the minutes rolled over, if yes, then hours should be incremented
 8. no, only the first one made a change, this is becuase theres a check on the setValue() method to make sure it doesnt get set to a value higher than the limit 
 10. Error: non-static method getValue() cannot be referenced from a static context
+
+11. Error: '.class' expected, the correct form is display.setValue(5);, we dont need to delcare the data type here because its already declared
+13. 0
+14. any value greater than the limit is now valid (|| represent an OR gate)
+15. !false, (34!=33)&&!false
+16. (a&&b)||(!a&&!b) (double AND)
+17. (a&&!b)||(!a&&b) (XOR)
+18. it assumes the limit is a two digit value, so until the value is over 100 getDisplayValue(); will always return a two digit string
+19. not that i can see
+20. 12cat and cat12, yes the second one returned cat39, i assume this means starting a printed string with a normal string stops math from happening
